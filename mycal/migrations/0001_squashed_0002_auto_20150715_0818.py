@@ -6,6 +6,8 @@ from django.db import models, migrations
 
 class Migration(migrations.Migration):
 
+    replaces = [(b'mycal', '0001_initial'), (b'mycal', '0002_auto_20150715_0818')]
+
     dependencies = [
     ]
 
@@ -32,5 +34,19 @@ class Migration(migrations.Migration):
             model_name='date',
             name='type',
             field=models.ForeignKey(to='mycal.Type'),
+        ),
+        migrations.CreateModel(
+            name='Relationships',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('relationship', models.CharField(default=b'friend', max_length=100)),
+                ('slug', models.SlugField(max_length=100)),
+            ],
+        ),
+        migrations.AddField(
+            model_name='date',
+            name='relationship',
+            field=models.ForeignKey(to='mycal.Relationships'),
+            preserve_default=False,
         ),
     ]

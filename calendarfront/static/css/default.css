@@ -1,0 +1,111 @@
+body {
+    background-color: #d9534f;
+}
+
+.relationship_nav ul {
+    list-style: none;
+}
+
+.relationship_nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+.relationship_nav a {
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+}
+
+.col-md-1 {
+    padding-left:3px;
+    padding-right:3px;
+}
+
+.month-box {
+    margin-bottom: 10px;
+}
+
+.month {
+    width: 100%;
+    height: 60px;
+    border: 3px solid white;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top:14px;
+    color: white;
+}
+
+.month span {
+    font-size:14px;
+}
+
+.date_entry {
+    width: 90%;
+    box-sizing: border-box;
+    padding-left:3px;
+    padding-right:3px;
+    padding-bottom:15px;
+    margin:10px auto;
+    opacity:0;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.date_link {
+    pointer-events: none;
+    cursor: default;
+}
+
+.visible {
+    opacity: 1.0;
+    pointer-events: auto;
+    cursor: auto;
+}
+
+.date_entry_title {
+    font-size: 12px;
+    text-align:center;
+}
+
+.date_entry_date {
+    width:100%;
+    text-align:center;
+    font-size: 25px;
+}
+
+.date_entry_details {
+    font-size: 16px;
+}
+
+.Anniversary {
+    background-color: #fff;
+    font-size: 20px;
+    border-radius: 1px 1px 15px 1px;
+    -moz-border-radius: 1px 1px 15px 1px;
+    -webkit-border-radius: 1px 1px 15px 1px;
+}
+
+.Birthday {
+    background-color: #fff;
+    border-radius: 1px 15px 1px 1px;
+    -moz-border-radius: 1px 15px 1px 1px;
+    -webkit-border-radius: 1px 15px 1px 1px;
+}
+
+.current_month {
+    background-color: #fff;
+    border: none;
+    color: #d9534f;
+    padding-top: 17px;
+}
+
+.current_day {
+    background:none;
+    border: 2px solid #fff;
+    color: #fff;
+}
+

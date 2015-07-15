@@ -3,6 +3,118 @@
 
 {% block content %}
 
-    <h1>Welcome, coming soon, something.</h1>
-    <!--   <hr>  -->
+    <div class="container">
+        <h1>Days I need to remember</h1>
+
+        <h3>It is {{ todays_date }}</h3>
+        &nbsp;
+
+        <div class="relationship_nav">
+            <ul>
+                <li class="all-relationships">All</li>
+                {% for relationship in relationships %}
+                    <li class="{{ relationship.slug }}">{{ relationship }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        {% if dates_by_month %}
+            <ul>
+                {% for month, events in dates_by_month.items %}
+                    <div class="col-md-1 month-box">
+                    {% if month == this_month %}
+                        <div class="month current_month">
+                            <span>{{ month }}</span>
+                        </div>
+                    {% else %}
+                        <div class="month">
+                            <span>{{ month }}</span>
+                        </div>
+                    {% endif %}
+
+                    {% for event in events %}
+                        {% if event.get_day == todays_day %}
+                            <a class="date_link visible">
+                            <div class="date_entry current_day {{ event.relationship.slug }} {{ event.type }} visible">
+                        {% else %}
+                            <a class="date_link visible">
+                            <div class="date_entry {{ event.relationship.slug }} {{ event.type }} visible">
+                        {% endif %}
+                    <div class="date_entry_date">{{ event.get_day }}</div>
+                    <div class="date_entry_title">{{ event.title }}</div>
+                    </div></a>
+                    {% endfor %}
+                </div>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>There are no dates.</p>
+        {% endif %}
+    </div>
+
+    <script>
+        var cw = $('.date_entry').width();
+        $('.date_entry').css({
+            'min-height': cw + 'px'
+        });
+    </script>
+
+
+
+
+
+    <script>
+        var main = function () {
+
+            var dateEntry = document.querySelectorAll('.date_entry');
+            var dateLink = document.querySelectorAll('.date_link');
+            var allRelationships = document.querySelector('.all-relationships');
+
+            {% for relationship in relationships %}
+
+                var slug = '{{ relationship.slug }}';
+                clickHandler(slug);
+
+            {% endfor %}
+
+            allRelationships.onclick = function () {
+                alterClass(dateEntry, 'visible', true);
+                alterClass(dateLink, 'visible', true);
+            };
+
+            function clickHandler(slug) {
+
+                var relationship = document.querySelector('.' + slug);
+                var relationshipEntries = document.querySelectorAll('.' + slug);
+
+                relationship.onclick = function () {
+
+                    alterClass(dateEntry, 'visible', false);
+                    alterClass(dateLink, 'visible', false);
+                    alterClass(relationshipEntries, 'visible', true);
+
+                }
+
+            }
+
+            function alterClass(elements, classname, add) {
+
+                for (var i = 0, l = elements.length; i < l; i++) {
+
+                    if (add) {
+                        elements[i].classList.add(classname);
+                    } else {
+                        elements[i].classList.remove(classname);
+                    }
+
+                }
+
+            }
+        };
+
+        $(document).ready(main);
+    </script>
+
+
+
 {% endblock %}

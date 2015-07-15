@@ -7,12 +7,12 @@ from django.db import models, migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('mycal', '0001_initial'),
+        ('mycal', '0001_squashed_0002_auto_20150715_0818'),
     ]
 
     operations = [
         migrations.RenameModel(
-            old_name='Entry',
-            new_name='Date',
+            old_name='Relationships',
+            new_name='Relationship',
         ),
     ]
