@@ -36,5 +36,5 @@ def home_screen(request):
         'dates_by_month': dates_by_month,
         'todays_date': todays_date,
         'this_month': this_month,
-        'todays_day': todays_day
+        'todays_day': todays_day,
     })

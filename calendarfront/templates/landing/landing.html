@@ -11,9 +11,9 @@
 
         <div class="relationship_nav">
             <ul>
-                <li class="all-relationships">All</li>
+                <a><li class="all-relationships">All</li></a>
                 {% for relationship in relationships %}
-                    <li class="{{ relationship.slug }}">{{ relationship }}</li>
+                    <a><li class="{{ relationship.slug }}">{{ relationship }}</li></a>
                 {% endfor %}
             </ul>
         </div>

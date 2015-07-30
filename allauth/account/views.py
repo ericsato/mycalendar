@@ -27,6 +27,7 @@ from . import app_settings
 
 from .adapter import get_adapter
 
+
 try:
     from django.contrib.auth import update_session_auth_hash
 except ImportError:

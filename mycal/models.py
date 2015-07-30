@@ -43,3 +43,4 @@ class Relationship(models.Model):
     @permalink
     def get_absolute_url(self):
         return ('view_mycal_relationship', None, { 'slug': self.slug })
+
