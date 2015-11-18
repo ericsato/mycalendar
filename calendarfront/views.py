@@ -1,7 +1,9 @@
-from django.shortcuts import render_to_response
-from mycal.models import Date, Type, Relationship
 from collections import OrderedDict
 import datetime
+
+from django.shortcuts import render_to_response
+from mycalendar.models import Date, Type, Relationship
+
 
 # Create your views here.
 def home_screen(request):

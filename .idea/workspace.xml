@@ -2,16 +2,447 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="954c2be7-9f53-4188-8db2-e4f98f7f8149" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allauth/templates/account/profile.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/account/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/account/adapter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/account/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/account/app_settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/account/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/account/auth_backends.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/account/context_processors.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/account/decorators.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/account/forms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/account/management/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/account/management/commands/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/account/management/commands/account_emailconfirmationmigration.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/account/management/commands/account_unsetmultipleprimaryemails.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/account/managers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/account/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/account/migrations/0002_email_max_length.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/account/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/account/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/account/signals.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/account/templatetags/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/account/templatetags/account.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/account/templatetags/account_tags.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/account/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/account/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/account/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/account/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/app_settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/exceptions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/cs/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/cs/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/de/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/de/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/el/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/el/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/en/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/en/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/es/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/es/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/fa/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/fa/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/fr/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/fr/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/he/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/he/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/hr/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/hr/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/hu/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/hu/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/it/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/it/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/ja/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/ja/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/nl/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/nl/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/pl/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/pl/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/pt_BR/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/pt_BR/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/pt_PT/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/pt_PT/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/ru/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/ru/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/sk/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/sk/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/sv/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/sv/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/th/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/th/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/tr/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/tr/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/uk/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/uk/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/zh_CN/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/zh_CN/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/zh_TW/LC_MESSAGES/django.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/locale/zh_TW/LC_MESSAGES/django.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/adapter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/app_settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/context_processors.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/fields.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/forms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/helpers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/migrations/0002_auto_20150727_1336.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/amazon/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/amazon/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/amazon/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/amazon/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/amazon/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/amazon/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/angellist/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/angellist/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/angellist/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/angellist/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/angellist/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/angellist/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/baidu/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/baidu/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/baidu/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/baidu/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/baidu/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/baidu/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/bitbucket/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/bitbucket/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/bitbucket/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/bitbucket/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/bitbucket/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/bitbucket/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/bitly/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/bitly/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/bitly/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/bitly/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/bitly/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/bitly/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/coinbase/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/coinbase/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/coinbase/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/coinbase/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/coinbase/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/coinbase/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/douban/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/douban/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/douban/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/douban/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/douban/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/douban/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/dropbox/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/dropbox/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/dropbox/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/dropbox/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/dropbox/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/dropbox/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/dropbox_oauth2/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/dropbox_oauth2/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/dropbox_oauth2/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/dropbox_oauth2/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/dropbox_oauth2/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/dropbox_oauth2/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/evernote/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/evernote/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/evernote/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/evernote/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/evernote/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/evernote/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/facebook/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/facebook/data/FacebookLocales.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/facebook/forms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/facebook/locale.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/facebook/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/facebook/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/facebook/south_migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/facebook/south_migrations/0002_auto__add_facebookaccesstoken__add_unique_facebookaccesstoken_app_acco.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/facebook/south_migrations/0003_tosocialaccount.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/facebook/south_migrations/0004_auto__del_facebookapp__del_facebookaccesstoken__del_unique_facebookacc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/facebook/south_migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/facebook/static/facebook/js/fbconnect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/facebook/templates/facebook/fbconnect.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/facebook/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/facebook/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/facebook/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/feedly/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/feedly/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/feedly/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/feedly/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/feedly/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/feedly/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/flickr/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/flickr/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/flickr/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/flickr/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/flickr/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/flickr/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/foursquare/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/foursquare/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/foursquare/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/foursquare/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/foursquare/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/foursquare/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/fxa/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/fxa/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/fxa/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/fxa/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/fxa/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/fxa/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/github/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/github/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/github/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/github/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/github/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/github/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/google/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/google/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/google/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/google/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/google/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/google/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/hubic/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/hubic/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/hubic/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/hubic/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/hubic/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/hubic/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/instagram/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/instagram/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/instagram/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/instagram/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/instagram/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/instagram/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/linkedin/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/linkedin/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/linkedin/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/linkedin/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/linkedin/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/linkedin/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/linkedin_oauth2/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/linkedin_oauth2/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/linkedin_oauth2/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/linkedin_oauth2/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/linkedin_oauth2/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/linkedin_oauth2/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/mailru/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/mailru/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/mailru/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/mailru/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/mailru/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/mailru/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/oauth/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/oauth/client.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/oauth/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/oauth/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/oauth/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/oauth/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/oauth2/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/oauth2/client.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/oauth2/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/oauth2/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/oauth2/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/oauth2/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/odnoklassniki/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/odnoklassniki/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/odnoklassniki/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/odnoklassniki/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/odnoklassniki/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/odnoklassniki/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/openid/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/openid/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/openid/forms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/openid/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/openid/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/openid/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/openid/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/openid/south_migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/openid/south_migrations/0002_tosocialaccount.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/openid/south_migrations/0003_auto__del_openidaccount.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/openid/south_migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/openid/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/openid/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/openid/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/openid/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/orcid/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/orcid/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/orcid/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/orcid/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/orcid/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/orcid/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/paypal/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/paypal/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/paypal/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/paypal/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/paypal/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/paypal/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/persona/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/persona/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/persona/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/persona/templates/persona/auth.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/persona/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/persona/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/persona/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/soundcloud/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/soundcloud/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/soundcloud/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/soundcloud/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/soundcloud/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/soundcloud/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/spotify/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/spotify/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/spotify/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/spotify/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/spotify/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/spotify/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/stackexchange/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/stackexchange/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/stackexchange/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/stackexchange/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/stackexchange/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/stackexchange/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/tumblr/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/tumblr/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/tumblr/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/tumblr/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/tumblr/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/tumblr/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/twitch/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/twitch/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/twitch/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/twitch/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/twitch/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/twitch/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/twitter/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/twitter/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/twitter/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/twitter/south_migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/twitter/south_migrations/0002_snowflake.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/twitter/south_migrations/0003_tosocialaccount.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/twitter/south_migrations/0004_auto__del_twitteraccount__del_twitterapp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/twitter/south_migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/twitter/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/twitter/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/twitter/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/vimeo/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/vimeo/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/vimeo/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/vimeo/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/vimeo/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/vimeo/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/vk/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/vk/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/vk/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/vk/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/vk/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/vk/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/weibo/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/weibo/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/weibo/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/weibo/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/weibo/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/weibo/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/windowslive/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/windowslive/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/windowslive/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/windowslive/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/windowslive/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/windowslive/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/xing/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/xing/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/xing/provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/xing/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/xing/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/providers/xing/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/signals.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/south_migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/south_migrations/0002_genericmodels.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/south_migrations/0003_auto__add_unique_socialaccount_uid_provider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/south_migrations/0004_add_sites.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/south_migrations/0005_set_sites.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/south_migrations/0006_auto__del_field_socialapp_site.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/south_migrations/0007_auto__add_field_socialapp_client_id.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/south_migrations/0008_client_id.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/south_migrations/0009_auto__add_field_socialtoken_expires_at.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/south_migrations/0010_auto__chg_field_socialtoken_token.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/south_migrations/0011_auto__chg_field_socialtoken_token.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/south_migrations/0012_auto__chg_field_socialtoken_token_secret.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/south_migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/templatetags/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/templatetags/socialaccount.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/templatetags/socialaccount_tags.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/socialaccount/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/account_inactive.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/email.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/email/email_confirmation_message.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/email/email_confirmation_signup_message.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/email/email_confirmation_signup_subject.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/email/email_confirmation_subject.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/email/password_reset_key_message.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/email/password_reset_key_subject.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/email_confirm.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/email_confirmed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/logout.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/messages/cannot_delete_primary_email.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/messages/email_confirmation_sent.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/messages/email_confirmed.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/messages/email_deleted.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/messages/logged_in.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/messages/logged_out.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/messages/password_changed.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/messages/password_set.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/messages/primary_email_set.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/messages/unverified_primary_email.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/password_change.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/password_reset.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/password_reset_done.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/password_reset_from_key.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/password_reset_from_key_done.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/password_set.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/profile.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/signup.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/signup_closed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/snippets/already_logged_in.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/verification_sent.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/account/verified_email_required.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/openid/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/openid/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/socialaccount/authentication_error.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/socialaccount/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/socialaccount/connections.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/socialaccount/login_cancelled.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/socialaccount/messages/account_connected.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/socialaccount/messages/account_connected_other.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/socialaccount/messages/account_disconnected.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/socialaccount/signup.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/socialaccount/snippets/login_extra.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/templates/socialaccount/snippets/provider_list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allauth/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mycal/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mycal/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mycal/migrations/0001_squashed_0002_auto_20150715_0818.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mycal/migrations/0002_auto_20150715_0818.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mycal/migrations/0002_auto_20150715_0827.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mycal/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mycal/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mycal/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mycal/views.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calendarfront/templates/base.html" afterPath="$PROJECT_DIR$/calendarfront/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calendarfront/static/css/default.css" afterPath="$PROJECT_DIR$/calendarfront/static/css/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calendarfront/templates/landing/landing.html" afterPath="$PROJECT_DIR$/calendarfront/templates/landing/landing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calendarfront/models.py" afterPath="$PROJECT_DIR$/calendarfront/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mycal/models.py" afterPath="$PROJECT_DIR$/mycal/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mycalendar/settings.py" afterPath="$PROJECT_DIR$/mycalendar/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mycalendar/urls.py" afterPath="$PROJECT_DIR$/mycalendar/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/allauth/account/views.py" afterPath="$PROJECT_DIR$/allauth/account/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calendarfront/views.py" afterPath="$PROJECT_DIR$/calendarfront/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -41,62 +472,8 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calendarfront/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="870">
-              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calendarfront/static/css/default.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1800">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mycalendar/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding>
-                <element signature="e#619#670#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/allauth/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/allauth/account/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="10185">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/allauth/templates/account/profile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="375">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="870">
+              <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -105,19 +482,63 @@
       <file leaf-file-name="landing.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/calendarfront/templates/landing/landing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9584665" vertical-offset="255" max-vertical-offset="1875">
-              <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+            <state vertical-scroll-proportion="-0.9648562" vertical-offset="1249" max-vertical-offset="1875">
+              <caret line="43" column="73" selection-start-line="43" selection-start-column="73" selection-end-line="43" selection-end-column="73" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mycalendar/settings.py">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mycalendar/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="2325">
-              <caret line="108" column="48" selection-start-line="108" selection-start-column="48" selection-end-line="108" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+              <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mycalendar/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="345">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mycalendar/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="135">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/calendarfront/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/calendarfront/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,16 +561,17 @@
         <option value="$PROJECT_DIR$/calendarfront/templates/reigstration/registration_form.html" />
         <option value="$PROJECT_DIR$/allauth/templates/account/signup.html" />
         <option value="$PROJECT_DIR$/calendarfront/templates/landing/landing.html" />
-        <option value="$PROJECT_DIR$/calendarfront/static/css/default.css" />
         <option value="$PROJECT_DIR$/allauth/models.py" />
         <option value="$PROJECT_DIR$/mycal/models.py" />
-        <option value="$PROJECT_DIR$/calendarfront/views.py" />
         <option value="$PROJECT_DIR$/calendarfront/models.py" />
         <option value="$PROJECT_DIR$/calendarfront/templates/base.html" />
         <option value="$PROJECT_DIR$/allauth/templates/account/profile.html" />
-        <option value="$PROJECT_DIR$/mycalendar/settings.py" />
         <option value="$PROJECT_DIR$/allauth/account/views.py" />
         <option value="$PROJECT_DIR$/mycalendar/urls.py" />
+        <option value="$PROJECT_DIR$/calendarfront/static/css/default.css" />
+        <option value="$PROJECT_DIR$/calendarfront/views.py" />
+        <option value="$PROJECT_DIR$/mycalendar/settings.py" />
+        <option value="$PROJECT_DIR$/mycalendar/models.py" />
       </list>
     </option>
   </component>
@@ -184,7 +606,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -227,6 +648,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="mycal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mycalendar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mycalendar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="calendarfront" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -241,17 +676,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="allauth" />
+              <option name="myItemId" value="calendarfront" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../subaholic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../front2015" />
     <property name="recentsLimit" value="5" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -264,9 +704,9 @@
       <recent name="$PROJECT_DIR$/mycalendar" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mycalendar" />
       <recent name="$PROJECT_DIR$/calendarfront/templates/registration" />
       <recent name="$PROJECT_DIR$/calendarfront" />
-      <recent name="$PROJECT_DIR$/mycalendar" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.mycalendar">
@@ -523,7 +963,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -531,20 +971,20 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18046875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16171876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -570,6 +1010,73 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mycalendar/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="525">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#619#670#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calendarfront/templates/landing/landing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1875">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycalendar/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="2325">
+          <caret line="108" column="48" selection-start-line="108" selection-start-column="48" selection-end-line="108" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calendarfront/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="870">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calendarfront/static/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1800">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycalendar/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="525">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#619#670#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calendarfront/templates/landing/landing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1875">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycalendar/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="2325">
+          <caret line="108" column="48" selection-start-line="108" selection-start-column="48" selection-end-line="108" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/calendarfront/static/js/mycal.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135">
@@ -584,14 +1091,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mycal/models.py">
+    <entry file="file://$PROJECT_DIR$/mycalendar/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="750">
           <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mycal/admin.py">
+    <entry file="file://$PROJECT_DIR$/mycalendar/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="360">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
@@ -602,9 +1109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="690">
           <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -638,28 +1142,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mycal/models.py">
+    <entry file="file://$PROJECT_DIR$/mycalendar/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="750">
           <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mycal/migrations/__init__.py">
+    <entry file="file://$PROJECT_DIR$/mycalendar/migrations/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mycal/migrations/0001_initial.py">
+    <entry file="file://$PROJECT_DIR$/mycalendar/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mycal/admin.py">
+    <entry file="file://$PROJECT_DIR$/mycalendar/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="360">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
@@ -693,9 +1197,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
           <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -711,7 +1212,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#619#670#0" expanded="true" />
+            <element signature="e#619#670#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -730,20 +1231,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mycal/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calendarfront/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06923077" vertical-offset="0" max-vertical-offset="650">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mycal/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650">
@@ -758,28 +1245,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mycal/migrations/__init__.py">
+    <entry file="file://$PROJECT_DIR$/mycalendar/migrations/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mycal/migrations/0001_initial.py">
+    <entry file="file://$PROJECT_DIR$/mycalendar/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mycal/migrations/0001_squashed_0002_auto_20150715_0818.py">
+    <entry file="file://$PROJECT_DIR$/mycalendar/migrations/0001_squashed_0002_auto_20150715_0818.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mycal/migrations/0002_auto_20150715_0818.py">
+    <entry file="file://$PROJECT_DIR$/mycalendar/migrations/0002_auto_20150715_0818.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5778491" vertical-offset="0" max-vertical-offset="623">
           <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
@@ -807,122 +1294,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mycal/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41538462" vertical-offset="0" max-vertical-offset="650">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allauth/templates/account/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="405">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycal/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3923077" vertical-offset="0" max-vertical-offset="780">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allauth/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calendarfront/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calendarfront/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calendarfront/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="870">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allauth/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allauth/templates/account/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07188498" vertical-offset="0" max-vertical-offset="626">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allauth/templates/account/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5990415" vertical-offset="0" max-vertical-offset="750">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calendarfront/static/css/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1800">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycalendar/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="2325">
-          <caret line="108" column="48" selection-start-line="108" selection-start-column="48" selection-end-line="108" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allauth/account/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allauth/account/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="10185">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -931,31 +1306,97 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="e#619#670#0" expanded="true" />
+            <element signature="e#619#670#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/allauth/urls.py">
+    <entry file="file://$PROJECT_DIR$/calendarfront/static/css/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1800">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calendarfront/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.072" vertical-offset="0" max-vertical-offset="625">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycalendar/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="345">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/allauth/templates/account/profile.html">
+    <entry file="file://$PROJECT_DIR$/mycalendar/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="375">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="785">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycalendar/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.048" vertical-offset="0" max-vertical-offset="625">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calendarfront/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycalendar/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3846154" vertical-offset="365" max-vertical-offset="2325">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calendarfront/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="375">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycalendar/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calendarfront/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="870">
+          <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/calendarfront/templates/landing/landing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9584665" vertical-offset="255" max-vertical-offset="1875">
-          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+        <state vertical-scroll-proportion="-0.9648562" vertical-offset="1249" max-vertical-offset="1875">
+          <caret line="43" column="73" selection-start-line="43" selection-start-column="73" selection-end-line="43" selection-end-column="73" />
           <folding />
         </state>
       </provider>
