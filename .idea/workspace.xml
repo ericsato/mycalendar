@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="954c2be7-9f53-4188-8db2-e4f98f7f8149" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mycalendar/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mycalendar/migrations/0001_squashed_0002_auto_20150715_0818.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mycalendar/migrations/0002_auto_20150715_0818.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mycalendar/migrations/0002_auto_20150715_0827.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mycalendar/migrations/__init__.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mycalendar/admin.py" afterPath="$PROJECT_DIR$/mycal/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mycalendar/models.py" afterPath="$PROJECT_DIR$/mycal/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mycalendar/tests.py" afterPath="$PROJECT_DIR$/mycal/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mycalendar/views.py" afterPath="$PROJECT_DIR$/mycal/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calendarfront/static/css/default.css" afterPath="$PROJECT_DIR$/calendarfront/static/css/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calendarfront/templates/landing/landing.html" afterPath="$PROJECT_DIR$/calendarfront/templates/landing/landing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mycalendar/settings.py" afterPath="$PROJECT_DIR$/mycalendar/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calendarfront/views.py" afterPath="$PROJECT_DIR$/calendarfront/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="954c2be7-9f53-4188-8db2-e4f98f7f8149" name="Default" comment="" />
     <ignored path="mycalendar.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
