@@ -2,8 +2,13 @@
 {% load staticfiles %}
 
 {% block content %}
-
     <div class="container">
+
+        <div id="master-wrapper">
+            <div class="close-box">close</div>
+            <div id="event-info-box"></div>
+        </div>
+
         <h1>Days I need to remember</h1>
 
         <h3>It is {{ todays_date }}</h3>
@@ -21,6 +26,7 @@
         {% if dates_by_month %}
             <ul>
                 {% for month, events in dates_by_month.items %}
+
                     <div class="col-md-1 month-box">
                     {% if month == this_month %}
                         <div class="month current_month">
@@ -40,8 +46,10 @@
                             <a class="date_link visible">
                             <div class="date_entry {{ event.relationship.slug }} {{ event.type }} visible">
                         {% endif %}
+
                     <div class="date_entry_date">{{ event.get_day }}</div>
                     <div class="date_entry_title">{{ event.title }}</div>
+                        <p class="content_text">{{ event.type }} #{{ event.get_duration }}</p>
                     </div></a>
                     {% endfor %}
                 </div>
@@ -69,12 +77,36 @@
             var dateEntry = document.querySelectorAll('.date_entry');
             var dateLink = document.querySelectorAll('.date_link');
             var allRelationships = document.querySelector('.all-relationships');
+            var eventInfoBox = document.querySelector('#event-info-box');
+            var masterWrapper = document.querySelector('#master-wrapper');
+            var closeBox = document.querySelector('.close-box');
+
+            function clearNode(node) {
+                while (node.firstChild) {
+                    node.removeChild(node.firstChild);
+                }
+            }
+
+            function eventInfoHandler(element) {
+                element.onclick = function () {
+                    clearNode(eventInfoBox);
+                    var cloned = element.cloneNode(true);
+                    eventInfoBox.appendChild(cloned);
+                    masterWrapper.classList.add('show');
+                };
+            }
+
+            closeBox.onclick = function () {
+                masterWrapper.classList.remove('show');
+            };
+
+            for (var i = 0, l = dateEntry.length; i < l; i++) {
+                eventInfoHandler(dateEntry[i]);
+            }
 
             {% for relationship in relationships %}
-
                 var slug = '{{ relationship.slug }}';
                 clickHandler(slug);
-
             {% endfor %}
 
             allRelationships.onclick = function () {
@@ -83,18 +115,14 @@
             };
 
             function clickHandler(slug) {
-
                 var relationship = document.querySelector('.' + slug);
                 var relationshipEntries = document.querySelectorAll('.' + slug);
 
                 relationship.onclick = function () {
-
                     alterClass(dateEntry, 'visible', false);
                     alterClass(dateLink, 'visible', false);
                     alterClass(relationshipEntries, 'visible', true);
-
                 }
-
             }
 
             function alterClass(elements, classname, add) {

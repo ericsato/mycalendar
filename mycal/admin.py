@@ -1,5 +1,5 @@
 from django.contrib import admin
-from mycalendar.models import Date, Type, Relationship
+from mycal.models import Date, Type, Relationship
 
 # Register your models here.
 class DateAdmin(admin.ModelAdmin):

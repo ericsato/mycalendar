@@ -1,20 +1,19 @@
+from django.shortcuts import render_to_response
+from mycal.models import Date, Type, Relationship
 from collections import OrderedDict
 import datetime
-
-from django.shortcuts import render_to_response
-from mycalendar.models import Date, Type, Relationship
-
 
 # Create your views here.
 def home_screen(request):
 
     query = {
         'month': "strftime('%m', date)",
-        'day': "strftime('%d', date)"
+        'day': "strftime('%d', date)",
+        'year': "strftime('%Y', date)"
     }
 
     dates_by_month = OrderedDict()
-    dates = Date.objects.all().extra(select=query).order_by('month', 'day')
+    dates = Date.objects.all().extra(select=query).order_by('month', 'day', 'year')
 
     for event in dates:
 
@@ -28,7 +27,7 @@ def home_screen(request):
     todays_date = datetime.datetime.now()
     this_month = todays_date.strftime('%B')
     todays_day = todays_date.strftime('%d')
-
+    this_year = int(todays_date.year)
 
 
     return render_to_response('landing/landing.html', {
@@ -39,4 +38,5 @@ def home_screen(request):
         'todays_date': todays_date,
         'this_month': this_month,
         'todays_day': todays_day,
+        'this_year': this_year,
     })

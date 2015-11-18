@@ -1,5 +1,50 @@
 body {
-    background-color: #d9534f;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+#master-wrapper {
+    position:absolute;
+    background-color: #fff;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 200px;
+    border: 2px solid #000;
+    display:none;
+    z-index:105;
+    padding:none;
+}
+
+#event-info-box {
+    position:relative;
+    width: 100%;
+    height: 100%;
+}
+
+.close-box {
+    position:relative;
+    top:0;
+    left: 0;
+    z-index:205;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
 }
 
 .pull-right {
@@ -17,7 +62,7 @@ body {
 
 .relationship_nav a {
     box-sizing: border-box;
-    color: white;
+    color: #000;
     text-decoration: none;
 }
 
@@ -33,11 +78,11 @@ body {
 .month {
     width: 100%;
     height: 60px;
-    border: 3px solid white;
+    border: 3px solid #000;
     text-align: center;
     box-sizing: border-box;
     padding-top:14px;
-    color: white;
+    color: #000;
 }
 
 .month span {
@@ -45,11 +90,12 @@ body {
 }
 
 .date_entry {
-    width: 90%;
+    width: 96%;
     box-sizing: border-box;
     padding-left:3px;
     padding-right:3px;
     padding-bottom:15px;
+    padding-top:5px;
     margin:10px auto;
     opacity:.1;
     -webkit-transition: 0.4s;
@@ -60,8 +106,7 @@ body {
 }
 
 .date_link {
-    pointer-events: none;
-    cursor: default;
+
 }
 
 .visible {
@@ -75,9 +120,12 @@ body {
 }
 
 .date_entry_date {
-    width:100%;
+    margin:0 auto 10px;
     text-align:center;
     font-size: 25px;
+    height: 40px;
+    width: 40px;
+    border: 2px solid #000;
 }
 
 .date_entry_details {
@@ -85,7 +133,7 @@ body {
 }
 
 .Anniversary {
-    background-color: #fff;
+    background-color: #a6e1ec;
     font-size: 20px;
     border-radius: 1px 1px 15px 1px;
     -moz-border-radius: 1px 1px 15px 1px;
@@ -93,22 +141,26 @@ body {
 }
 
 .Birthday {
-    background-color: #a6e1ec;
+    background-color: #eeeeee;
     border-radius: 1px 15px 1px 1px;
     -moz-border-radius: 1px 15px 1px 1px;
     -webkit-border-radius: 1px 15px 1px 1px;
 }
 
 .current_month {
-    background-color: #fff;
+    background-color: #333;
     border: none;
     color: #d9534f;
     padding-top: 17px;
 }
 
 .current_day {
-    background:none;
-    border: 2px solid #fff;
-    color: #fff;
+    background-color: #333;
+    border: 2px solid #333;
+    color: #d9534f;
+}
+
+.content_text {
+    font-size:10px;
 }
 

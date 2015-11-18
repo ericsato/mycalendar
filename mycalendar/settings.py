@@ -42,7 +42,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'calendarfront',
-    'mycalendar',
+    'mycal',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
