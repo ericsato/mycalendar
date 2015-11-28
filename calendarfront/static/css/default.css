@@ -164,3 +164,9 @@ a:hover {
     font-size:10px;
 }
 
+@media (max-width: 990px) {
+    .col-md-1 {
+        width: 23%;
+        display: inline-block;
+    }
+}
