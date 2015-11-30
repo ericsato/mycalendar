@@ -39,7 +39,7 @@
                     {% endif %}
 
                     {% for event in events %}
-                        {% if event.get_day == todays_day %}
+                        {% if event.get_day == todays_day and month == this_month %}
                             <a class="date_link visible">
                             <div class="date_entry current_day {{ event.relationship.slug }} {{ event.type }} visible">
                         {% else %}
